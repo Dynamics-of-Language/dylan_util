@@ -1,0 +1,29 @@
+The directory "wsj-02-21.mxpost" is an MXPOST "project directory", which
+contains the results of training MXPOST on Sections 02-21 of the Penn Treebank.
+
+The two scripts ("trainmxpost" and "mxpost") are replacements for scripts of
+the same name in the MXPOST distribution.  You can move the old ones out of the
+way in your MXPOST install directory, or simply clobber the old ones with the
+new ones provided here.
+
+An MXPOST project directory is the sole required argument to the mxpost script
+(which runs the tagger), where usage is accomplished with Unix file
+redirection:
+	mxpost <projectdir> < <inputfile> > <outputfile>
+Example usage:
+	mxpost wsj-02-21.mxpost < myinputfile > myoutputfile
+
+The format of MXPOST input and output files is contained in the MXPOST.html
+file that accompanies the MXPOST distribution.
+
+You can convert freely between the MXPOST tagging format and the tagged input
+format used by the parsing engine with the scripts
+       adwait2bikel.pl
+       bikel2adwait.pl
+that are provided as part of the parsing engine install (in the "bin"
+directory).  These scripts are used by the "tag-and-train" script that also
+comes with the parsing engine software.
+
+MXPOST is available for download from the following URL:
+       ftp://ftp.cis.upenn.edu/pub/adwait/jmx/jmx.tar.gz
+

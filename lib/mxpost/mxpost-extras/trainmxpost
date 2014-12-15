@@ -1,0 +1,39 @@
+#!/bin/tcsh -f
+
+if ($#argv != 2) then
+	echo "usage: $0 <project> <training>" 
+	exit 1
+endif
+
+set thisDir = `dirname $0`
+
+set project = $1
+set trdata = $2
+
+set mem = (-Xms400m -Xmx400m)
+set cp = $thisDir/mxpost.jar
+
+set command = (java -server $mem -cp $cp tagger.TrainTagger $project $trdata)
+
+echo Executing command $command
+
+$command
+
+if ($status != 0) then
+    echo "Error: problem executing tagger.TrainTagger"
+    exit 1
+endif
+
+set command = (java -server $mem -cp $cp maxent.GIS \
+	       $project/events $project/tagfeatures.fmap $project/model 100)
+
+echo Executing command
+echo -n "	"
+echo $command
+
+$command
+
+if ($status != 0) then
+    echo "error: problem executing maxent.GIS"
+    exit 1
+endif

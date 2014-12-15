@@ -1,0 +1,9 @@
+Please not that you are using QTAG at your own risk. No responsibility is
+accepted for any damage or harm caused by using QTAG. Being a stochastic tagger,
+there is no guarantee possible for the accuracy of the result, so please don't
+use it to implement a natural-language interface for your local nuclear power
+plant/air-traffic control system, or other life-or-death relevant appliances.
+
+Also, QTAG is only available for individual research or private non-commercial
+purposes. If you want to use it for a funded research project or a commercial
+application, please contact Phrasys for details.

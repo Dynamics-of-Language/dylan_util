@@ -1,0 +1,63 @@
+                          MXPOST and MXTERMINATOR
+
+                            All rights reserved.
+
+                        (c) 1997 Adwait Ratnaparkhi
+
+                      Developed by Adwait Ratnaparkhi
+                         University of Pennsylvania
+                 Dept. of Computer and Information Science
+                           200 South 33rd Street
+                          Philadelphia, PA. 19104
+
+   LICENSE INFORMATION
+
+   Adwait Ratnaparkhi ("Owner") grants to the individual researcher who
+   downloads this software ("Licensee") a non-exclusive, non-transferable
+   run-time license to use the MXPOST and MXTERMINATOR software
+   ("Software"), subject to the restrictions listed below under "Scope of
+   Grant."
+
+   SCOPE OF GRANT
+
+   The Licensee may:
+     * use the Software for educational or research purposes;
+     * permit others under the Licensee's supervision at the same site to
+       use the Software for educational or research purposes;
+     * copy the Software for archival purposes, provided that any such
+       copy contains all of the original proprietary notices.
+
+   The Licensee may not:
+     * use the Software for commercial purposes;
+     * allow any individual who is not under the direct supervision of
+       the Licensee to use the Software;
+     * redistribute the Software;
+     * copy the Software other than as specified above;
+     * rent, lease, grant a security interest in, or otherwise transfer
+       rights to the Software;
+     * remove any proprietary notices or labels accompanying the
+       Software;
+
+   DISCLAIMER
+
+   The Owner makes no representations or warranties about the suitability
+   of the Software and Linguistic Resources, either express or implied,
+   including but not limited to the implied warranties of
+   merchantability, fitness for a particular purpose, or
+   non-infringement. The Owner shall not be liable for any damages
+   suffered by Licensee as a result of using, modifying or distributing
+   the Software or its derivatives.
+
+   CONSENT
+
+   By downloading, using or copying the Software, Licensee agrees to
+   abide by the intellectual property laws, and all other applicable laws
+   of the U.S., and the terms of this License. Ownership of the Software
+   shall remain solely with the Owner.
+
+   TERMINATION
+
+   The Owner shall have the right to terminate this license at any time
+   by written notice. Licensee shall be liable for any infringement or
+   damages resulting from Licensee's failure to abide by the terms of
+   this License.

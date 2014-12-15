@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="csli/util/classify/stanford/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-math-1.2/commons-math-1.2.jar" sourcepath="/javasrc/commons-math-1.2/commons-math-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/commons-math-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/jwnl14-rc2/jwnl.jar" sourcepath="/javasrc/jwnl14-rc2">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/jwnl14-rc2.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/jwnl14-rc2/lib/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/mxpost/mxpost.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/qtag/qtag.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/verbnet-api/verbnet.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xerces-2.8.0/xercesImpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xerces-2.8.0/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/stanford-parser-2010-08-20/stanford-parser-2010-08-20.jar" sourcepath="/javasrc/stanford-parser-2010-08-20">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/stanford-parser-2010-08-20.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/stanford-postagger-2010-05-26/stanford-postagger-2010-05-26.jar" sourcepath="/javasrc/stanford-postagger-2010-05-26">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/stanford-postagger-2010-05-26.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/stanford-classifier-2008-04-18/stanford-classifier-2008-04-18.jar" sourcepath="/javasrc/stanford-classifier-2008-04-18">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/stanford-classifier-2008-04-18.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/stanford-ner-2009-01-16/stanford-ner-2009-01-16.jar" sourcepath="/javasrc/stanford-ner-2009-01-16">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/stanford-ner-2009-01-16.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/libsvm-3.0/libsvm.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/liblinear-1.51/liblinear-1.51.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://www.bwaldvogel.de/liblinear-java/site/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.6/poi-3.6-20091214.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/poi-3.6.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.6/poi-contrib-3.6-20091214.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/poi-3.6.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.6/poi-ooxml-3.6-20091214.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/poi-3.6.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.6/poi-ooxml-schemas-3.6-20091214.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/poi-3.6.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.6/poi-examples-3.6-20091214.jar" sourcepath="/Users/mpurver/.m2/repository/org/apache/poi/poi-examples/3.6/poi-examples-3.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/apache-log4j-1.2.16/log4j-1.2.16.jar" sourcepath="/javasrc/apache-log4j-1.2.16">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/apache-log4j-1.2.16.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/apache-opennlp-1.5.1-incubating/opennlp-tools-1.5.1-incubating.jar" sourcepath="/javasrc/apache-opennlp-1.5.1-incubating">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/opennlp-tools-1.5.1-incubating.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/apache-opennlp-1.5.1-incubating/opennlp-maxent-3.0.1-incubating.jar" sourcepath="/javasrc/apache-opennlp-1.5.1-incubating">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/opennlp-maxent-3.0.1-incubating.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/weka-3.6.7/weka.jar" sourcepath="/javasrc/weka-3.6.7-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/weka-3.6.7.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/jni_svm_light/jnisvmlight.jar" sourcepath="/javasrc/JNI_SVM-light-6.01.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/JNI_SVM-light-6.01.zip!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="util/lib/jni_svm_light"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/junit-4.11/junit-4.11-SNAPSHOT-20120416-1530.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
