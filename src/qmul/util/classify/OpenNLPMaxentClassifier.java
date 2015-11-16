@@ -7,7 +7,7 @@ import opennlp.maxent.GIS;
 import opennlp.maxent.GISModel;
 import opennlp.model.Event;
 import opennlp.model.EventStream;
-import weka.classifiers.Classifier;
+import weka.classifiers.AbstractClassifier;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
@@ -16,7 +16,7 @@ import edu.stanford.nlp.ling.BasicDatum;
 import edu.stanford.nlp.ling.RVFDatum;
 import edu.stanford.nlp.stats.ClassicCounter;
 
-public class OpenNLPMaxentClassifier extends Classifier {
+public class OpenNLPMaxentClassifier extends AbstractClassifier {
 
 	private static final long serialVersionUID = 1625528434007607372L;
 

@@ -80,11 +80,6 @@
 			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/opennlp-maxent-3.0.1-incubating.zip!/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="lib/weka-3.6.7/weka.jar" sourcepath="/javasrc/weka-3.6.7-src.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/weka-3.6.7.zip!/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="lib/jni_svm_light/jnisvmlight.jar" sourcepath="/javasrc/JNI_SVM-light-6.01.zip">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:platform:/resource/javadoc/JNI_SVM-light-6.01.zip!/"/>
@@ -92,5 +87,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="lib/junit-4.11/junit-4.11-SNAPSHOT-20120416-1530.jar"/>
+	<classpathentry kind="lib" path="lib/weka-3.7.6/weka.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
