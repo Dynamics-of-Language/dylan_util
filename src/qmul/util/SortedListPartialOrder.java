@@ -3,6 +3,7 @@ package qmul.util;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.List;
 
 public class SortedListPartialOrder<T> extends LinkedList<T> {
 
@@ -18,6 +19,15 @@ public class SortedListPartialOrder<T> extends LinkedList<T> {
 	
 	
 	
+	public SortedListPartialOrder(List<T> l, Comparator<T> comp) {
+		this.comparator=comp;
+		addAll(l);
+		
+	}
+
+
+
+
 	/**
 	 * assumes list already partial-sorted
 	 */
