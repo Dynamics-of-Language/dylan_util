@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/commons-math-1.2/commons-math-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jwnl14-rc2/jwnl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jwnl14-rc2/lib/commons-logging.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/mxpost/mxpost.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/qtag/qtag.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/verbnet-api/verbnet.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/xerces-2.8.0/xercesImpl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/xerces-2.8.0/xml-apis.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/stanford-parser-2010-08-20/stanford-parser-2010-08-20.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/stanford-postagger-2010-05-26/stanford-postagger-2010-05-26.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/stanford-classifier-2008-04-18/stanford-classifier-2008-04-18.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/stanford-ner-2009-01-16/stanford-ner-2009-01-16.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/libsvm-3.0/libsvm.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/liblinear-1.51/liblinear-1.51.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/poi-3.6/poi-3.6-20091214.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/poi-3.6/poi-contrib-3.6-20091214.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/poi-3.6/poi-ooxml-3.6-20091214.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/poi-3.6/poi-ooxml-schemas-3.6-20091214.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/poi-3.6/poi-examples-3.6-20091214.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/apache-opennlp-1.5.1-incubating/opennlp-tools-1.5.1-incubating.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/apache-opennlp-1.5.1-incubating/opennlp-maxent-3.0.1-incubating.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/jni_svm_light/jnisvmlight.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/junit-4.11/junit-4.11-SNAPSHOT-20120416-1530.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/weka-3.7.6/weka.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" exported="">
+      <library name="commons-math-1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-math-1.2/commons-math-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/commons-math-1.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/commons-math-1.2/commons-math-1.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="jwnl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jwnl14-rc2/jwnl.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/jwnl14-rc2.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/jwnl14-rc2" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-logging.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jwnl14-rc2/lib/commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="mxpost.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mxpost/mxpost.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="qtag.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/qtag/qtag.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="verbnet.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/verbnet-api/verbnet.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="xercesImpl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xerces-2.8.0/xercesImpl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="xml-apis.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xerces-2.8.0/xml-apis.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="stanford-parser-2010-08-20.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/stanford-parser-2010-08-20/stanford-parser-2010-08-20.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/stanford-parser-2010-08-20.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/stanford-parser-2010-08-20" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="stanford-postagger-2010-05-26.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/stanford-postagger-2010-05-26/stanford-postagger-2010-05-26.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/stanford-postagger-2010-05-26.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/stanford-postagger-2010-05-26" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="stanford-classifier-2008-04-18.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/stanford-classifier-2008-04-18/stanford-classifier-2008-04-18.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/stanford-classifier-2008-04-18.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/stanford-classifier-2008-04-18" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="stanford-ner-2009-01-16.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/stanford-ner-2009-01-16/stanford-ner-2009-01-16.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/stanford-ner-2009-01-16.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/stanford-ner-2009-01-16" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="libsvm.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/libsvm-3.0/libsvm.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="liblinear-1.51.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/liblinear-1.51/liblinear-1.51.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="http://www.bwaldvogel.de/liblinear-java/site/apidocs/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="poi-3.6-20091214.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.6/poi-3.6-20091214.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/poi-3.6.zip!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="poi-contrib-3.6-20091214.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.6/poi-contrib-3.6-20091214.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/poi-3.6.zip!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="poi-ooxml-3.6-20091214.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.6/poi-ooxml-3.6-20091214.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/poi-3.6.zip!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="poi-ooxml-schemas-3.6-20091214.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.6/poi-ooxml-schemas-3.6-20091214.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/poi-3.6.zip!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="poi-examples-3.6-20091214.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/poi-3.6/poi-examples-3.6-20091214.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///Users/mpurver/.m2/repository/org/apache/poi/poi-examples/3.6/poi-examples-3.6-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="opennlp-tools-1.5.1-incubating.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/apache-opennlp-1.5.1-incubating/opennlp-tools-1.5.1-incubating.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/opennlp-tools-1.5.1-incubating.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/apache-opennlp-1.5.1-incubating" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="opennlp-maxent-3.0.1-incubating.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/apache-opennlp-1.5.1-incubating/opennlp-maxent-3.0.1-incubating.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/opennlp-maxent-3.0.1-incubating.zip!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///javasrc/apache-opennlp-1.5.1-incubating" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="jnisvmlight.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jni_svm_light/jnisvmlight.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/javadoc/JNI_SVM-light-6.01.zip!/" />
+        </JAVADOC>
+        <NATIVE>
+          <root url="file://util/lib/jni_svm_light" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file:///javasrc/JNI_SVM-light-6.01.zip" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="junit-4.11-SNAPSHOT-20120416-1530.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/junit-4.11/junit-4.11-SNAPSHOT-20120416-1530.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="weka.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/weka-3.7.6/weka.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
