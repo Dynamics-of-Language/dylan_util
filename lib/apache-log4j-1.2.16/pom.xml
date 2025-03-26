@@ -309,7 +309,12 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
             <scope>system</scope>
             <systemPath>${tools.jar}</systemPath>
           </dependency>
- 
+
+          <dependency>
+            <groupId>me.tongfei</groupId>
+            <artifactId>progressbar</artifactId>
+            <version>0.10.0</version>
+          </dependency>
 
         </dependencies>
       </plugin>
