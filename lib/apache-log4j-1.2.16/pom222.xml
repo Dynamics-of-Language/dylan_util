@@ -315,13 +315,6 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
             <artifactId>progressbar</artifactId>
             <version>0.10.0</version>
           </dependency>
-          <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20231013</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/json-20231013.jar</systemPath>
-          </dependency>
 
         </dependencies>
       </plugin>
